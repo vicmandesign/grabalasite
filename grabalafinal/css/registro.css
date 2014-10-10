@@ -1,5 +1,4 @@
 @import url("../webfonts/nexa/stylesheet.css");
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 @import url("../webfonts/nexa/stylesheet.css");
 * {
   margin: 0;
@@ -80,7 +79,7 @@ a {
   width: 100%;
   height: 100vh;
   min-height: 100%;
-  background: #FFFFFF;
+  background: IndianRed;
   size: cover;
   position: relative; }
   #reg #wrapper {
@@ -94,10 +93,15 @@ a {
     margin-bottom: 50px; }
   #reg h2 {
     width: 100%;
-    color: indianred;
+    color: #ffffff;
     text-align: center;
-    font-size: 3.125em;
-    font-family: 'nexa_boldregular', sans-serif; }
+    font-size: 3.125em; }
+  #reg a.cta_big {
+    display: block;
+    width: 20%;
+    margin: 0 auto; }
+    #reg a.cta_big svg {
+      fill: #CD5C5C; }
 
 .simform {
   position: relative;
@@ -136,7 +140,7 @@ a {
   height: 0;
   -webkit-transition: visibility 0s 0.4s, height 0s 0.4s;
   transition: visibility 0s 0.4s, height 0s 0.4s;
-  color: rgba(0, 0, 0, 0.6); }
+  color: #fff; }
 
 .questions li.current,
 .no-js .questions li {
@@ -353,9 +357,6 @@ a {
   -webkit-transition: opacity 0.3s, visibility 0s 0.3s;
   transition: opacity 0.3s, visibility 0s 0.3s; }
 
-.min {
-  font-size: 0.1em; }
-
 /* No JS Fallback */
 .no-js .simform {
   font-size: 1.75em; }
@@ -385,34 +386,6 @@ input[type=text]::-ms-clear {
 @media screen and (max-width: 33.5625em) {
   .simform {
     font-size: 1.2em; } }
-table {
-  width: 80%;
-  text-align: left;
-  margin: 30px auto; }
-  table th, table td {
-    padding: 8px; }
-  table th {
-    color: #f4a545;
-    font-size: 1.625em; }
-  table td {
-    color: rgba(0, 0, 0, 0.6); }
-  table .aplicar {
-    display: block;
-    width: 100%;
-    height: 30px;
-    background: indianred;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px;
-    color: white;
-    font-family: "nexa_lightregular", sans-serif;
-    font-size: 1em;
-    -webkit-transition: all, 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-    -moz-transition: all, 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-    transition: all, 0.5s cubic-bezier(0.19, 1, 0.22, 1); }
-    table .aplicar:hover {
-      background: #f4a545; }
-
 #final {
   width: 100%;
   height: 80px;

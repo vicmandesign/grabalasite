@@ -27,9 +27,10 @@
 	
 	h2{
 		width: 100%;
-		color: $naranja;
+		color: $rojo;
 		text-align: center;
 		font-size: em(50px);
+		font-family: 'nexa_boldregular', sans-serif;
 	}
 }	
 	
@@ -76,6 +77,8 @@
 		-webkit-transition: visibility 0s 0.4s, height 0s 0.4s;
 		transition: visibility 0s 0.4s, height 0s 0.4s;
 		color: rgba(0, 0, 0, .6);
+		
+		
 	}
 	
 	.questions li.current,
@@ -313,6 +316,9 @@
 		opacity: 0;
 		-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
 		transition: opacity 0.3s, visibility 0s 0.3s;
+	}
+	.min{
+		font-size: .1em
 	}
 	
 	/* No JS Fallback */
