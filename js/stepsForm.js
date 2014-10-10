@@ -214,10 +214,10 @@
 		var message = '';
 		switch( err ) {
 			case 'EMPTYSTR' : 
-				message = 'Please fill the field before continuing';
+				message = '¡Por favor llena este campo antes de continuar!';
 				break;
 			case 'INVALIDEMAIL' : 
-				message = 'Please fill a valid email address';
+				message = '¡Por favor utiliza una dirección de correo válida!';
 				break;
 			// ...
 		};
